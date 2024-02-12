@@ -21,7 +21,7 @@
 
 <form th:action="@{/book/delete}" th:object="${bookToDelete}" method="post">
     <p>Title: <input type="text" placeholder="Tu wpisz tytuł" th:field="*{title}"></p>
-    <p><button type="submit" formaction="/book/delete">Usuń książkę</button></p>
+    <p><input type="submit" value="Usuń książkę"></p>
 </form>
 
 </body>
